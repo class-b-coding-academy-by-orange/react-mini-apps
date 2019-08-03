@@ -13,6 +13,7 @@ export class Details extends Component {
       jobProfile,
       additionalInfo
     } = this.props.info;
+    
     return (
       <div>
         <div className="card text-center">
