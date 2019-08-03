@@ -1,0 +1,7 @@
+.display {
+    background: rgb(146, 213, 235, .9);
+    border: 2px solid rgba(74, 143, 167, 0.9);
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+}
