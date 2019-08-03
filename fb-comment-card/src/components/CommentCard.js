@@ -19,15 +19,15 @@ class CommentCard extends Component {
             />
           </div>
           <div className="col-md-8">
-            <div className="card-body d-flex align-content- flex-column">
-              <h5 className="card-title">
+            <div className="card-body">
+              <h5 className="card-title ct">
                 <a href="#">{username}</a> .{" "}
                 <small className="text-muted">{location}</small>
               </h5>
-              <p className="card-text">
+              <p className="card-text cb">
                 {postBody}
               </p>
-              <p className="card-text">
+              <p className="card-text cf">
                 <small className="text-muted">
                   <a href="#">Like</a> . <a href="#">Replay</a> . Last updated {createdTime}
                 </small>

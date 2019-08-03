@@ -1,4 +1,27 @@
 a {
     color: #1353dd;
 }
-  
+
+
+.card-body {
+    height: 203px;
+    /* border: 1px dotted green; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+
+.ct {
+    align-self: start;
+    /* border: 1px solid red */
+}
+
+.cb {
+    align-self: start;
+    /* border: 1px solid red */
+}
+
+.cf {
+    align-self: end;
+    /* border: 1px solid red; */
+}
