@@ -14,14 +14,14 @@ export class Counter extends Component {
     const interval = setInterval(() => {
       if (this.state.minutes === 59) {
         this.setState({
-          minutes: 0,
+          minutes: -1,
           hours: this.state.hours + 1
         });
       }
 
       if (this.state.seconds === 59) {
         this.setState({
-          seconds: 0,
+          seconds: -1,
           minutes: this.state.minutes + 1
         });
       }
