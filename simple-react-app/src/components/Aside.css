@@ -1,0 +1,26 @@
+.wrapper {
+    /* border: 1px dotted red;  */
+}
+
+.card {
+    height: 20% !important;
+    width: 80%;
+    margin: 5px auto;
+    /* font-size: .8rem; */
+}
+
+.card * {
+    font-size: .8rem
+}
+
+.card-header {
+    background-color: rgb(175, 235, 252);
+    color: rgb(13, 83, 102);
+    font-size: 1rem
+}
+
+button {
+    background-color: rgb(97, 218, 251, .8) !important;
+    color: white !important;
+    border: 1px solid  #61DAFB !important;
+}
